@@ -6,17 +6,17 @@ const Navbar = () => {
       <div className="flex items-center gap-3">
         <span className=" text-xs md:text-sm border border-gray-200 rounded-3xl p-2 ">MST</span>
         <div className= " flex justify-center items-center border border-gray-200 rounded-3xl p-2 gap-1">
-        <img src="./public/images/clock.png" alt="clock" className="md:w-5 md:h-5 w-3 h-3 " />
+        <img src="./images/clock.png" alt="clock" className="md:w-5 md:h-5 w-3 h-3 " />
           <span className=" text-xs md:text-sm">02:03:02</span>
-          <img src="./public/images/pen.png" alt="arrow" className="md:w-6 md:h-6 w-4 h-4" />
+          <img src="./images/pen.png" alt="arrow" className="md:w-6 md:h-6 w-4 h-4" />
         </div>
         <img
-          src="./public/images/Notification.png"
+          src="./images/Notification.png"
           alt="profile"
           className="md:w-10 md:h-10 w-8 h-8 rounded-full"
           />
         <img
-          src="./public/images/aile.png"
+          src="./images/Aile.png"
           alt="profile"
           className="md:w-10 md:h-10 w-8 h-8 rounded-full"
         />

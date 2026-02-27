@@ -9,7 +9,7 @@ const EmployeeCard = ({ employee }) => {
       <h2 className="font-semibold">{employee.name}</h2>
       <p className="text-sm text-gray-500">{employee.role}</p>
       <img
-        src="./public/images/Indicator.png"
+        src="./images/Indicator.png"
         alt="more"
         className="mt-2"
       />

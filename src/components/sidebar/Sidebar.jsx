@@ -21,8 +21,8 @@ const Sidebar = ({ isOpen, setIsOpen }) => {
         `}>
       
         <div className=" flex gap-24 p-6 text-2xl font-bol justify-center items-center">
-           <img src="./public/images/core.png" alt="logo" className="w-22 h-22"/>
-           <img src="./public/images/arrow.png"
+           <img src="./images/core.png" alt="logo" className="w-22 h-22"/>
+           <img src="./images/arrow.png"
             alt="logo" 
             className="w-5 h-5 cursor-pointer"
             onClick={() => setIsOpen(false)}
@@ -31,34 +31,34 @@ const Sidebar = ({ isOpen, setIsOpen }) => {
 
         <nav className="space-y-2 px-4">
           <div className="p-3 rounded-lg hover:bg-gray-700 cursor-pointer flex items-center gap-2">
-            <img src="./public/images/Home.png"/>
+            <img src="./images/Home.png"/>
             Home
           </div>
           <div className="p-3 rounded-lg hover:bg-gray-700 cursor-pointer flex items-center gap-2">
-          <img src="./public/images/info.png" />
+          <img src="./images/info.png" />
             My Info
-            <img src="./public/images/singlearrow.png" />
+            <img src="./images/singlearrow.png" />
           </div>
           <div className="p-3 rounded-lg text-[#947550] cursor-pointer flex items-center gap-2 bg-white ">
-          <img src="./public/images/people.png" />
+          <img src="./images/People.png" />
             People
           </div>
           <div className="p-3 rounded-lg hover:bg-gray-700 cursor-pointer flex items-center gap-2">
-          <img src="./public/images/Team.png" />
+          <img src="./images/Team.png" />
             Team Management
-            <img src="./public/images/singlearrow.png" />
+            <img src="./images/singlearrow.png" />
           </div>
           <div className="p-3 rounded-lg hover:bg-gray-700 cursor-pointer flex items-center gap-2">
-          <img src="./public/images/project.png" />
+          <img src="./images/Project.png" />
             Project Setup
-            <img src="./public/images/singlearrow.png" />
+            <img src="./images/singlearrow.png" />
           </div>
           <div className="p-3 rounded-lg hover:bg-gray-700 cursor-pointer flex items-center gap-2">
-          <img src="./public/images/hiring.png" />
+          <img src="./images/hiring.png" />
             Hiring
           </div>
           <div className="p-3 rounded-lg hover:bg-gray-700 cursor-pointer flex items-center gap-2">
-          <img src="./public/images/reports.png" />
+          <img src="./images/reports.png" />
             Report
           </div>
         </nav>
@@ -66,7 +66,7 @@ const Sidebar = ({ isOpen, setIsOpen }) => {
 
       <div className="border border-gray-600 rounded-xl m-4 cursor-pointer">
         <button className=" bg-[#2D2A26] m-2 flex justify-center gap-2 ">
-        <img src="./public/images/settings.png" />
+        <img src="./images/settings.png" />
           Settings
         </button>
       </div>
