@@ -9,14 +9,14 @@ const EmployeeGrid = () => {
         <img src="./images/search.png" alt="search" className="w-4 h-4" />
         <input className=" text-md p-1 w-full" placeholder="Search for Employees Name or Number" />
       </div>
-      <div className= "flex flex-row items-center md:gap-4 gap-6 mt-3 md:mt-0">
-        <img src="./images/Action.png" alt="filter" className="w-9 h-9" />
-        <img src="./images/Filter.png" alt="filter" className="w-9 h-9" />
-        <img src="./images/Plus.png" alt="filter" className="w-9 h-9" />
-        <div className="flex gap-3 p-0.5 border border-gray-300 rounded-xl">
-          <img src="./images/App.png" alt="filter" className="w-9 h-9" />
-          <img src="./images/List.png" alt="filter" className="w-9 h-9" />
-          <img src="./images/Tree.png" alt="filter" className="w-9 h-9" />
+      <div className= "flex flex-row items-center md:gap-4 gap-8 mt-3 md:mt-0">
+        <img src="./images/Action.png" alt="filter" className="md:w-9 md:h-9 w-7 h-7" />
+        <img src="./images/Filter.png" alt="filter" className="md:w-9 md:h-9 w-7 h-7" />
+        <img src="./images/Plus.png" alt="filter" className="md:w-9 md:h-9 w-7 h-7" />
+        <div className="flex md:gap-3 gap-2 p-0.5 border border-gray-300 rounded-xl">
+          <img src="./images/App.png" alt="filter" className="md:w-9 md:h-9 w-7 h-7" />
+          <img src="./images/List.png" alt="filter" className="md:w-9 md:h-9 w-7 h-7" />
+          <img src="./images/Tree.png" alt="filter" className="md:w-9 md:h-9 w-7 h-7" />
         </div>
         
       </div>
